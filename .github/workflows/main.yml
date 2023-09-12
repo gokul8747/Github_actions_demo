@@ -7,4 +7,4 @@ jobs:
       - name: Acess repo
         uses: actions/checkout@v2
       - name: my-step
-        run: echo "Hello World!" >> demo.txt
+        run: cat demo.txt

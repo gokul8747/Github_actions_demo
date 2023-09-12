@@ -17,6 +17,7 @@ jobs:
           git add -A
           git diff-index --quiet HEAD || (git commit -a -m "updated logs" --allow-empty)
           git config pull.rebase false
+          git pull
           git push
           
       - name: push changes
